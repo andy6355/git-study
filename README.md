@@ -13,6 +13,12 @@ In any directory, init local run follow command:
 ```Bash
 git init
 ```
+>now ,git initialize this directory as a repo, you will see a .git direcrory
+add remote git repo with this repo
+```bash
+git remote add origin 
+```
+
 * Clone a repo from remote
 In any directory, run follow command:
 ```Bash
