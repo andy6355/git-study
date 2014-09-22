@@ -4,7 +4,7 @@ Learning Git
 ==========
 
 ##0. Install
-For most linux system, it has builtin git client.If it does not installed, you can build with source
+For most linux system, it has builtin git client.If it does not installed, you can build with source<br>
 [git from googlecode](https://code.google.com/p/git-core/downloads/list)
 
 download the newest tar file to some directory, then:
@@ -51,31 +51,47 @@ For a new file, add to git repository, run follow command:
 git add [newfile]
 ```
 
-###1.3. Commit change
+###1.3. remove file
+like svn remove, use git to remove files from repo, not only remove local file, but also run remote remove, and then commit;
+```bash
+git rm [file]
+```
+
+###1.4. Commit change
 After add new files, no matter how many files, run commit to submit changes, run follow command:
 ```Bash
 git commit -m "your commit messages"
 ```
 
-###1.4. status,diff
+###1.5. status,diff
 check repository status, it will show which file is modified and not commit to repository. diff command can show the changes with UNIX style diff format.
 ```Bash
 git status
 git diff [file]
 ```   
 
-###1.5. log
+###1.6. log
 git log show commit logs and reflog show reflog
 ```bash
 git log 
 git log --pretty=oneline
 git reflog
 ```
-> tips : 'git config --global alias.lg \"log --color --graph --pretty=format:\'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\' --abbrev-commit\"'
-
-##2.  
+> tips : 'git config --global alias.lg "log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"'
  
 ==========
+
+##2. version control
+
+###2.1. branch
+```bash
+git branch [branch_name]
+git checkout [branch_name]
+```
+or
+```bash
+git checkout -b [branch_name]
+```
 
 ##Cheatsheet
 ---------
