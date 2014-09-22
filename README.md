@@ -13,7 +13,7 @@ In any directory, init local run follow command:
 ```Bash
 git init
 ```
->now ,git initialize this directory as a repo, you will see a .git direcrory
+>now ,git initialize this directory as a repo, you will see a .git direcrory<br>
 add remote git repo with this repo
 ```bash
 git remote add origin 
