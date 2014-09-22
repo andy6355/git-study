@@ -100,7 +100,9 @@ git tag -a v1.0 -m "version 1.0" 3628164 // tag with message, 3628164 is commit 
 git tag -s v1.0 -m "signed version 1.0" fec145a  // tag with private keystore, fec145a is commit number
 ```
 
-##Cheatsheet
+##3. git docs
+[git docs](./static/html)
+##4. Cheatsheet
 ![](https://github.com/andy6355/git-study/blob/master/static/cheat-sheet-large01.png "come from : http://www.git-tower.com/blog/assets/2013-05-22-git-cheat-sheet/cheat-sheet-large01.png")
 
 
