@@ -34,6 +34,6 @@ git diff [file]
  
 Cheatsheet
 ---------
-![](http://www.git-tower.com/blog/assets/2013-05-22-git-cheat-sheet/cheat-sheet-large01.png)
+![](https://github.com/andy6355/git-study/blob/master/static/cheat-sheet-large01.png "come from : http://www.git-tower.com/blog/assets/2013-05-22-git-cheat-sheet/cheat-sheet-large01.png")
 
 
