@@ -1,13 +1,11 @@
 Learning Git 
 ==========
 
-this is an example!
-
 ==========
 
 ##0. Install
 For most linux system, it has builtin git client.If it does not installed, you can build with source
-![git from googlecode](https://code.google.com/p/git-core/downloads/list)
+[git from googlecode](https://code.google.com/p/git-core/downloads/list)
 
 download the newest tar file to some directory, then:
 ```bash
@@ -18,6 +16,8 @@ make
 make install
 ```
 
+
+==========
 
 ##1. Basic
 ###1.1. Init
@@ -64,6 +64,16 @@ git status
 git diff [file]
 ```   
 
+###1.5. log
+git log show commit logs and reflog show reflog
+```bash
+git log 
+git log --pretty=oneline
+git reflog
+```
+> tips : 'git config --global alias.lg \"log --color --graph --pretty=format:\'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset\' --abbrev-commit\"'
+
+##2.  
  
 ==========
 
