@@ -5,10 +5,25 @@ this is an example!
 
 ==========
 
+##0. Install
+For most linux system, it has builtin git client.If it does not installed, you can build with source
+![git from googlecode](https://code.google.com/p/git-core/downloads/list)
+
+download the newest tar file to some directory, then:
+```bash
+tar xzvf [file]
+cd git-* 
+./configure
+make
+make install
+```
+
+
 ##1. Basic
 ###1.1. Init
 Local init repo, Or clone a repo from remote<br>
 * Local init, and add remote repo<br>
+
 In any directory, init local run follow command:
 ```Bash
 git init
@@ -21,6 +36,7 @@ git remote add origin git@github.com:andy6355/git-study.git
 ```
 
 * Clone a repo from remote<br>
+
 In any directory, run follow command:
 ```Bash
 git clone git@github.com:andy6355/git-study.git
