@@ -1,4 +1,4 @@
-Example
+Learning Git 
 ==========
 
 this is an example!
@@ -28,6 +28,9 @@ check repository status, it will show which file is modified and not commit to r
     git status
     git diff [file]
    
-5. 
+ 
+Cheatsheet
+---------
+![](http://www.git-tower.com/blog/assets/2013-05-22-git-cheat-sheet/cheat-sheet-large01.png)
 
 
