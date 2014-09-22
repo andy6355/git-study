@@ -1,8 +1,6 @@
 Learning Git 
 ==========
 
-==========
-
 ##0. Install
 For most linux system, it has builtin git client.If it does not installed, you can build with source<br>
 [git from googlecode](https://code.google.com/p/git-core/downloads/list)
@@ -93,8 +91,16 @@ or
 git checkout -b [branch_name]
 ```
 
+###2.2. tag
+```bash
+git tag        //show tags
+git tag v1.0   //tag at current head
+git show v1.0  //show tag detail
+git tag -a v1.0 -m "version 1.0" 3628164 // tag with message, 3628164 is commit number
+git tag -s v1.0 -m "signed version 1.0" fec145a  // tag with private keystore, fec145a is commit number
+```
+
 ##Cheatsheet
----------
 ![](https://github.com/andy6355/git-study/blob/master/static/cheat-sheet-large01.png "come from : http://www.git-tower.com/blog/assets/2013-05-22-git-cheat-sheet/cheat-sheet-large01.png")
 
 
