@@ -14,17 +14,19 @@ In any directory, init local run follow command:
 git init
 ```
 >now ,git initialize this directory as a repo, you will see a .git direcrory<br>
+
 add remote git repo with this repo
 ```bash
-git remote add origin 
+git remote add origin git@github.com:andy6355/git-study.git
 ```
 
-* Clone a repo from remote
+* Clone a repo from remote<br>
 In any directory, run follow command:
 ```Bash
 git clone git@github.com:andy6355/git-study.git
 ```
->run this command before, you should have this repo permission,otherwise, you should fork this repo to your repo.
+>before run this command,you should have this repo permission.
+>otherwise,you can fork this repo to your repo,and clone it from your git url.
 
 
 ###1.2. Add file
